@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="Hook_server" pkg="hook_service" type="hook_server.py" output="screen" respawn="true" />
+
+</launch>
